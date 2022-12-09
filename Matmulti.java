@@ -11,6 +11,7 @@ public class Matmulti{
 		b=input.nextInt();
 		
 		int mat1[][]=new int [a][b];
+		System.out.println("enter the elements of matrix 1:\n");
 		for (i=0;i<a;i++){
 			for(j=0;j<b;j++){
 				mat1[i][j]=input.nextInt();
@@ -23,7 +24,7 @@ public class Matmulti{
 		System.out.println("enter the no of columns of mat 2:");
 		y=input.nextInt();
 		int mat2[][]=new int [x][y] ;
-		System.out.println("enter the elememts ");
+		System.out.println("enter the elememts of matrix 2:\n ");
 		for(i=0;i<x;i++){
 			for(j=0;j<y;j++){
 				mat2[i][j]=input.nextInt();
